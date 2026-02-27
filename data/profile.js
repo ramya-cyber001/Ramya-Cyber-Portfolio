@@ -1,4 +1,4 @@
-export const profile = {
+cexport const profile = {
   name: "Ramya Arumugam",
   title: "Cybersecurity Specialist | Ethical Hacker",
   tagline: "Securing systems, defending networks, preventing threats.",
@@ -14,7 +14,7 @@ export const profile = {
     { code: "AIS247", name: "AI Security Essentials for Business Leaders", date: "Feb 2025", status: "Earned" },
     { code: "CC", name: "ISC2 Certified in Cybersecurity", date: "Jul 2024", status: "Earned" },
     { code: "AZ-IAM", name: "Microsoft Azure: Identity and Access Management", date: "Jul 2024", status: "Earned" },
-    { code: "GCIH", name: "GIAC Incident Handler", date: "In progress", status: "In Progress" }
+    { code: "GCIH", name: "GIAC Incident Handler", date: "Dec 2025", status: "In Progress" }
   ],
   quickStats: [
     { label: "Years in Cybersecurity", value: "3+" },
@@ -41,9 +41,16 @@ export const profile = {
       org: "Lumena Energy",
       date: "May 2025 – Present",
       bullets: [
-        "Implemented NIST SP 800-53 controls into system requirements and execution.",
+        "Implemented NIST SP 800-53 and ISO 27001 security controls across cloud and enterprise environments, improving control maturity and audit readiness.",
         "Led the design and implementation of the company’s first SOC for containerized AI data center nodes.",
-        "Authored SRD, SRS, SAD, STAR, and Risk Management Plan; coordinated with teams via JIRA."
+       
+        "Performed threat modeling using STRIDE and PASTA for applications and infrastructure, identifying attack scenarios and defining mitigation strategies for cloud-hosted and containerized workloads.",
+"Integrated SIEM-based monitoring with threat intelligence and CVE analysis for AWS and Microsoft 365 environments, improving visibility into threats and vulnerabilities.",
+"Investigated AWS security events using GuardDuty, mapped findings to MITRE ATT&CK, and coordinated remediation with stakeholders.",
+"Used Wiz for CSPM to identify cloud misconfigurations, analyze attack paths, and prioritize remediation across AWS environments.",
+"Reviewed API authentication and authorization controls to support secure SDLC practices and reduce application-layer security risk.",
+"Established the organization’s first Security Operations Center (SOC), defining monitoring architecture, escalation paths, incident response workflows, and reporting practices.",
+ "Authored SRD, SRS, SAD, STAR, and Risk Management Plan; coordinated with teams via JIRA."
       ]
     },
     {
@@ -53,7 +60,10 @@ export const profile = {
       bullets: [
         "Validated secure vehicle messaging via MATLAB/Simulink with CI/CD-aligned auth and encryption.",
         "Implemented encryption for tamper-resistant component communications.",
-        "Optimized message authentication to improve startup reliability and safety."
+        "Optimized message authentication to improve startup reliability and safety.",
+        "Supported secure design reviews, threat analysis, and encryption validation for connected-system workflows.",
+        "Collaborated with cross-functional teams to strengthen authentication and resilience across system components."
+
       ]
     },
     {
@@ -61,17 +71,20 @@ export const profile = {
       org: "Illinois Institute of Technology",
       date: "Aug 2024 – May 2025",
       bullets: [
-        "Facilitated labs in intrusion detection, hardening, firewall configuration, and log analysis.",
-        "Guided students with hands-on exercises and best practices."
+        "Facilitated hands-on labs in ethical hacking, intrusion detection, and access control, guiding students in system hardening, firewall configuration, and log analysis.",
+        "Conducted DAST-style testing, vulnerability analysis, and OWASP-aligned penetration testing exercises.",
+        "Encouraged initiative in developing new lab challenges and guided collaborative problem-solving sessions."
       ]
     },
     {
-      role: "Cybersecurity Educator",
+      role: "Cybersecurity Specialist",
       org: "BrightChamps Tech Private Limited",
       date: "Sep 2021 – Aug 2023",
       bullets: [
-        "Delivered secure coding and programming in C/C++/Python/Shell; emphasized security by design.",
-        "Mentored diverse learners; boosted satisfaction by 25% and completion rates by 15%."
+       "Delivered training on secure coding and vulnerability remediation, improving security awareness and risk ownership.",
+       "Improved course material and technical documentation, increasing learner engagement and completion outcomes.",
+       "Mentored applied security projects emphasizing risk identification and mitigation."
+      
       ]
     },
     {
@@ -87,10 +100,53 @@ export const profile = {
   skills: {
     offensive: ["Penetration Testing", "Red Teaming", "Exploit Development"],
     defensive: ["SIEM", "IDS/IPS", "Threat Hunting", "SOC Monitoring"],
-    cloud: ["AWS", "Azure", "GCP Hardening"],
-    tools: ["Kali Linux", "Metasploit", "Burp Suite", "Wireshark", "Nessus"],
-    languages: ["Python", "Bash", "Shell Script", "C++", "C", "SQL"],
-    compliance: ["NIST", "ISO 27001", "CIS Benchmarks"]
+    securityEngineering: [
+      "Threat Modeling (STRIDE, PASTA)",
+      "MITRE ATT&CK",
+      "Incident Response",
+      "Risk Assessments",
+      "Vulnerability Management",
+      "Penetration Testing Support"
+    ],
+     cloudAndPlatformSecurity: [
+      "AWS",
+      "Microsoft Azure",
+      "IAM",
+      "Entra ID",
+      "Wiz CSPM",
+      "Amazon GuardDuty",
+      "SIEM",
+      "Splunk",
+      "Terraform",
+      "Docker",
+      "EDR",
+      "System Hardening"
+    ],
+    applicationSecurityAndAutomation: [
+      "OWASP Top 10",
+      "API Security",
+      "DAST",
+      "Secure SDLC",
+      "Static Code Analysis",
+      "Python",
+      "Bash",
+      "PowerShell",
+      "Burp Suite",
+      "Nessus",
+      "Wireshark",
+      "Metasploit",
+      "WAF"
+    ],
+    governanceAndCompliance: [
+      "NIST SP 800-53",
+      "ISO 27001/270xx",
+      "SOC 2",
+      "CIS",
+      "PCI",
+      "GDPR",
+      "Audit Evidence Support",
+      "Policy and Technical Documentation"
+    ]
   },
   training: [
     "Hamilton’s Solutions, Inc (May 2025 – Present) — Audit contracts, compliance & risk, client solutions.",
@@ -110,9 +166,9 @@ export const profile = {
     "GCSI & Chicago Cybersecurity Conference — Community involvement (since 2024)."
   ],
   social: {
-    github: "https://github.com/",
-    twitter: "https://twitter.com/",
-    medium: "https://medium.com/",
+    github: "https://github.com/ramya-cyber001",
+    //twitter: "https://twitter.com/",
+    //medium: "https://medium.com/",
   },
   pgp: "", // add your public key URL here if available
 };
