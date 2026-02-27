@@ -1,4 +1,4 @@
-cexport const profile = {
+export const profile = {
   name: "Ramya Arumugam",
   title: "Cybersecurity Specialist | Ethical Hacker",
   tagline: "Securing systems, defending networks, preventing threats.",
@@ -6,6 +6,7 @@ cexport const profile = {
   phone: "312-731-2368",
   email: "a.ramya0507@gmail.com",
   linkedin: "https://www.linkedin.com/in/arumugam-ramya",
+  github: "https://github.com/ramya-cyber001",
   yearsExperience: 3, // adjustable
   certifications: [
     { code: "GSEC", name: "GIAC Security Essentials", date: "Aug 2025", status: "Earned" },
@@ -14,7 +15,7 @@ cexport const profile = {
     { code: "AIS247", name: "AI Security Essentials for Business Leaders", date: "Feb 2025", status: "Earned" },
     { code: "CC", name: "ISC2 Certified in Cybersecurity", date: "Jul 2024", status: "Earned" },
     { code: "AZ-IAM", name: "Microsoft Azure: Identity and Access Management", date: "Jul 2024", status: "Earned" },
-    { code: "GCIH", name: "GIAC Incident Handler", date: "Dec 2025", status: "In Progress" }
+    { code: "GCIH", name: "GIAC Incident Handler", date: "Dec 2025", status: "Earned" }
   ],
   quickStats: [
     { label: "Years in Cybersecurity", value: "3+" },
