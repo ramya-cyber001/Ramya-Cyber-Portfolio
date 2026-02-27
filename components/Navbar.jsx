@@ -37,7 +37,7 @@ export default function Navbar() {
           <li><a href="#certs" className="hover:text-cyan-300">Certs</a></li>
           <li><a href="#skills" className="hover:text-cyan-300">Skills</a></li>
           <li><a href="#projects" className="hover:text-cyan-300">Projects</a></li>
-          <li><a href="#blog" className="hover:text-cyan-300">Blog</a></li>
+        
           <li><a href="#ctf" className="hover:text-cyan-300">CTF</a></li>
           <li><a href="#timeline" className="hover:text-cyan-300">Experience</a></li>
           <li><a href="#contact" className="hover:text-cyan-300">Contact</a></li>
