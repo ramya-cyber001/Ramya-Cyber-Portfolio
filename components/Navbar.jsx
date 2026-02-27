@@ -42,9 +42,9 @@ export default function Navbar() {
           <li><a href="#timeline" className="hover:text-cyan-300">Experience</a></li>
           <li><a href="#contact" className="hover:text-cyan-300">Contact</a></li>
           <li className="flex gap-3 pl-2">
-            <a href="https://github.com/" target="_blank" className="hover:text-cyan-300" aria-label="GitHub"><Github className="h-5 w-5" /></a>
+            <a href="https://github.com/ramya-cyber001" target="_blank" className="hover:text-cyan-300" aria-label="GitHub"><Github className="h-5 w-5" /></a>
             <a href="https://www.linkedin.com/in/arumugam-ramya" target="_blank" className="hover:text-cyan-300" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
-            <a href="https://twitter.com/" target="_blank" className="hover:text-cyan-300" aria-label="Twitter"><Twitter className="h-5 w-5" /></a>
+            <a href="https://x.com/artycyber001" target="_blank" className="hover:text-cyan-300" aria-label="Twitter"><Twitter className="h-5 w-5" /></a>
           </li>
         </ul>
       </nav>
