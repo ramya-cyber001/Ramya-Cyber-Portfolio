@@ -42,33 +42,45 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="relative py-20 px-4 bg-[radial-gradient(ellipse_at_top,rgba(0,240,255,0.06),transparent_60%)]">
-        <div className="mx-auto max-w-5xl">
-          <SectionHeader title="About Me" subtitle="Mission-driven. Ethical. Impact-focused." />
-          <div className="grid md:grid-cols-[240px,1fr] gap-6 items-start">
-            <div className="glass rounded-2xl p-2 border border-cyan-400/20">
-              <div className="aspect-[3/4] rounded-xl bg-[url('/avatar.jpg')] bg-cover bg-center border border-cyan-400/30" style={{boxShadow: "0 0 30px rgba(0,240,255,0.15)"}} aria-label="Profile photo placeholder"></div>
+  <section
+  id="about"
+  className="relative py-20 px-4 bg-[radial-gradient(ellipse_at_top,rgba(0,240,255,0.06),transparent_60%)]">
+  <div className="mx-auto max-w-5xl">
+    <SectionHeader
+      title="About Me"
+      subtitle="Mission-driven. Ethical. Impact-focused."
+    />
+
+    <div className="glass rounded-2xl p-8 border border-cyan-400/20">
+      <p className="text-cyan-100/90 leading-relaxed">
+        {profile.summary}
+      </p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
+        {profile.quickStats.map((s, i) => (
+          <div
+            key={i}
+            className="text-center border border-cyan-400/20 rounded-xl p-4">
+            <div className="text-2xl font-bold text-cyan-200">
+              {s.value}
             </div>
-            <div className="glass rounded-2xl p-6">
-              <p className="text-cyan-100/90">
-                  {profile.summary}
-              </p>
-              <div className="grid grid-cols-3 gap-4 mt-6">
-                {profile.quickStats.map((s, i) => (
-                  <div key={i} className="text-center border border-cyan-400/20 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-cyan-200">{s.value}</div>
-                    <div className="text-xs text-cyan-200/70">{s.label}</div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-6 text-sm text-cyan-200/80">
-                <a href="/Resume.pdf" className="underline hover:text-cyan-300">Download Résumé (PDF)</a>
-              </div>
+            <div className="text-xs text-cyan-200/70">
+              {s.label}
             </div>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
 
+      <div className="mt-6 text-sm text-cyan-200/80 text-center">
+        <a
+          href="/resume.pdf"
+          className="underline hover:text-cyan-300">
+          Download Résumé (PDF)
+        </a>
+      </div>
+    </div>
+    </div>
+    </section>
       {/* CERTIFICATIONS */}
       <section id="certs" className="py-20 px-4">
         <div className="mx-auto max-w-6xl">
