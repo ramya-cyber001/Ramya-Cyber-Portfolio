@@ -4,6 +4,7 @@ export const projects = [
     title: "Built a Home SOC Lab with Splunk & ELK Stack",
     summary: "Deployed a simulated enterprise SOC lab with Splunk and ELK for log aggregation, detection engineering, and alert triage.",
     tags: ["SIEM", "SOC", "Detection Engineering"],
+    links: { profile: "" },
     //links: { github: "", report: "/case-studies/home-soc-lab.pdf" },
     details: {
       problem: "Limited hands-on SOC experience without enterprise infrastructure.",
@@ -25,6 +26,7 @@ export const projects = [
     title: "Performed Web App Penetration Testing on OWASP Juice Shop",
     summary: "Executed a structured black-box web application pentest against the OWASP Juice Shop target.",
     tags: ["Pentesting", "OWASP", "Web Security"],
+    links: { profile: "" },
     //links: { github: "", report: "/case-studies/juice-shop-pentest.pdf" },
     details: {
       problem: "Demonstrate offensive security methodology in a safe lab.",
@@ -45,6 +47,7 @@ export const projects = [
     title: "Automated Threat Detection Script in Python",
     summary: "Developed a Python utility to parse logs and flag suspicious behaviors, integrated with Slack notifications.",
     tags: ["Python", "SIEM", "Automation"],
+    links: { profile: "" },
     //links: { github: "", report: "/case-studies/python-threat-detection.pdf" },
     details: {
       problem: "Manual log triage is time-consuming and error-prone.",
@@ -65,6 +68,7 @@ export const projects = [
     title: "Hybrid Intrusion Detection System (NIDS + HIDS) using ML",
     summary: "Implemented a hybrid IDS with optimized features and ML models for real-time detection.",
     tags: ["ML", "IDS", "Security Engineering"],
+      links: { profile: "" },
     //links: { github: "", report: "/case-studies/hybrid-ids-ml.pdf" },
     details: {
       problem: "Detect sophisticated threats with low overhead.",
