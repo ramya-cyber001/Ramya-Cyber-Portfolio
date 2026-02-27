@@ -26,7 +26,7 @@ export default function ProjectPage({ params }) {
         </ul>
         <div className="mt-6 flex gap-4">
           {project.links.github && <a className="underline" href={project.links.github} target="_blank">GitHub</a>}
-          {project.links.report && <a className="underline" href={project.links.report} target="_blank">Case Report (PDF)</a>}
+          
         </div>
       </div>
     </div>
