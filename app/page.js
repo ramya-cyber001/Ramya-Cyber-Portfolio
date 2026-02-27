@@ -62,7 +62,7 @@ export default function Home() {
                 ))}
               </div>
               <div className="mt-6 text-sm text-cyan-200/80">
-                <a href="/resume.pdf" className="underline hover:text-cyan-300">Download Résumé (PDF)</a>
+                <a href="/Resume.pdf" className="underline hover:text-cyan-300">Download Résumé (PDF)</a>
               </div>
             </div>
           </div>
