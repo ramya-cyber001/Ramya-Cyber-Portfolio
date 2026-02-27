@@ -48,7 +48,7 @@ html, body {
   2%, 64% { transform: translate(2px,0) skew(0deg); }
   4%, 60% { transform: translate(-2px,0) skew(0deg); }
   62% { transform: translate(0,0) skew(5deg); }
-}*/
+}
 @keyframes glitchTop {
   0% { transform: translate(0); }
   50% { transform: translate(-2px, -1px); }
