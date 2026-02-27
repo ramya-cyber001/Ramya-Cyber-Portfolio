@@ -12,7 +12,8 @@ import { projects } from "../data/projects";
 import { posts } from "../data/blog";
 import { ctfs } from "../data/ctf";
 
-const specialties = ["Penetration Testing", "Threat Analysis", "SIEM", "SOC Monitoring", "Cloud Security", "Incident Response"];
+const specialties = ["Cloud Security", "Incident Response", "Penetration Testing", "Threat Modeling",
+  "SOC Buildout", "SIEM Monitoring","Threat Analysis","Vulnerability Management"];
 
 export default function Home() {
   return (
@@ -50,9 +51,7 @@ export default function Home() {
             </div>
             <div className="glass rounded-2xl p-6">
               <p className="text-cyan-100/90">
-                I protect data, solve vulnerabilities, and practice ethical hacking to improve system resilience.
-                Experienced across SOC operations, incident response, and secure cloud architectures (AWS/Azure).
-                Comfortable in both red and blue team roles, with strong programming fundamentals.
+                  {profile.summary}
               </p>
               <div className="grid grid-cols-3 gap-4 mt-6">
                 {profile.quickStats.map((s, i) => (
@@ -167,7 +166,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-[radial-gradient(ellipse_at_bottom,rgba(0,255,159,0.06),transparent_60%)]">
         <div className="mx-auto max-w-5xl text-center">
           <SectionHeader title="Testimonials" subtitle="Endorsements from mentors & colleagues" />
-          <p className="text-cyan-200/80">Add quotes here when available. Placeholder to maintain layout.</p>
+          <p className="text-cyan-200/80">To be updated.</p>
         </div>
       </section>
 
